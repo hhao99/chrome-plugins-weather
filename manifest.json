@@ -1,16 +1,17 @@
 {
   "manifest_version": 2,
 
-  "name": "QR Code",
-  "description": "Generate QR Code for web page.",
+  "name": "Weather Notification",
+  "description": "pull weather in current location",
   "version": "1.0",
 
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "Generate QRCode"
+    "default_title": "Current Weather"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "https://api.openweathermap.org/"
   ]
 }
